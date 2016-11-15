@@ -16,10 +16,6 @@ let ansi_blue   = ansi_escape + "fg52,91,141;"
 let ansi_reset  = ansi_escape + ";"
 
 public class Logger {
-    class func with_color(_ name: String, text: Any) -> String {
-        return String(describing: text)
-    }
-
     public class func info(_ args: Any..., file: String = #file, function: String = #function, line: Int = #line) {
         let filename = (file as NSString).lastPathComponent
         
@@ -35,5 +31,4 @@ public class Logger {
         }
         print(terminator: "\n")
     }
-
 }

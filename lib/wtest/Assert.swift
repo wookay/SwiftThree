@@ -1,10 +1,5 @@
-//
-//  Assert.swift
-//  Base
-//
-//  Created by wookyoung on 16/11/2016.
-//  Copyright © 2016 wookyoung. All rights reserved.
-//
+// from https://github.com/apple/swift-corelibs-xctest/blob/master/Sources/XCTest/Public/XCTAssert.swift
+
 
 import Foundation
 import UIKit
