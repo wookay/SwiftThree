@@ -6,10 +6,7 @@
 //  Copyright © 2016 wookyoung. All rights reserved.
 //
 
-import XCTest
-@testable import SwiftThree
-
-class SwiftThreeTests: XCTestCase {
+class SwiftThreeTests: WTestCase {
     
     override func setUp() {
         super.setUp()
@@ -24,6 +21,7 @@ class SwiftThreeTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        Assert.equal(3, 1+2)
     }
     
     func testPerformanceExample() {
@@ -32,5 +30,5 @@ class SwiftThreeTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
+
 }

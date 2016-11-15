@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        Logger.info("hello")
+        UnitTest.run(only: SwiftThreeTests.self)
     }
 
     override func didReceiveMemoryWarning() {
